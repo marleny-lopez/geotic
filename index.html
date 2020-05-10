@@ -1,7 +1,347 @@
-<html>
-    <head></head>
-    <body>
-        <h1>hola mundo</h1>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" href="imagen/apple-icon.png">
+	<link rel="icon" href="imagen/favicon.png">
+	<title>GeoTic - Aprendamos Juntos!!</title>
+
+	<!-- Fonts and icons -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/material-kit.css?v=2.0.0">
+	<link rel="stylesheet" href="css/animate.css"/>
+</head>
+<body class="landing-page" id="inicio">
+	<div class="loader"></div>
+	<!-- boton ir al inicio cuando haya recorrido 300px en el scroll de la página -->
+	<span class="ir-arriba icon-arrow-up2"></span>
+
+	<!-- Modal -->
+	<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalSesion" data-whatever="@mdo">Abri ventana</button> -->
+	<div class="modal fade" id="modalSesion" tabindex="-1" role="dialog" aria-labelledby="modalSesionLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title f-gumela" id="modalSesionLabel">Nombre de usuario</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form autocomplete="off">
+						<div class="form-group f-gumela">
+							<label for="recipient-name" class="col-form-label f-gumela">Usuario:</label>
+							<input type="text" required class="form-control" maxlength="13" id="username">
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>-->
+					<button type="button" class="btn bg-color-btn f-gumela" data-dismiss="modal" onclick="capturar(event);" >Enviar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fin Modal -->
+
+	<nav class="navbar navbar-color-on-scroll navbar-dark bg-info fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
+		<div class="container">
+			<div class="navbar-translate">
+				<a class="navbar-brand" href=""> <img class="" src="imagen/logo_menu.png" alt="Aprendamos Juntos"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon bg-icon"></span>
+					<span class="navbar-toggler-icon bg-icon"></span>
+					<span class="navbar-toggler-icon bg-icon"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active-boton-user">
+						<a class="nav-link f-nino text-shadow-p" href="" data-toggle="modal" data-target="#modalSesion">
+							<i class="material-icons">account_box</i> <span id="name_user">Invitado</span>
+						</a>
+					</li>
+					<li class="nav-item active-boton-inicio">
+						<a class="nav-link f-nino text-shadow-p" href="">
+							<i class="material-icons">home</i> Inicio
+						</a>
+					</li>
+					<li class="nav-item active-boton-juegos">
+						<a class="nav-link f-nino text-shadow-p" href="#games">
+							<i class="material-icons">games</i> Más juegos
+						</a>
+					</li>
+					<li class="nav-item active-boton-contacto">
+						<a class="nav-link f-nino text-shadow-p" href="#contact">
+							<i class="material-icons">contact_support</i> Acerca de
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid bg-color-zona-juegos-destacados">
+		<div class="container">
+			<div class="row align-items-center top-margin">
+				<div class="col-md-7 animated fadeInDown delay-2s">
+					<img class="img-fluid d-block ml-auto mr-auto py-2" src="imagen/logo.png" alt="Aprendamos Juntos">
+				</div>
+				<div class="col-md-5 animated fadeInRightBig delay-2s">
+					<h1 class="title text-center text-shadow-tit f-nino">Aprendamos Juntos!</h1>
+					<h2 class="text-center color-1 text-shadow-p f-nino2">Jugar es la forma favorita de nuestro cerebro para aprender</h2>
+					<h2 class="text-center color-2 text-shadow-p f-nino">SEGUNDO DE PRIMARIA</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid pb-3">
+		<div class="row justify-content-sm-center justify-content-md-center selector-color-row-1 animated fadeInLeftBig delay-2s">
+			<div class="col-sm-3 col-md-2 mx-1 my-2 px-0 conf-games text-center">
+				<a href="recta/" target="_blank" class="py-2">
+					<i class="material-icons font-siz-44">drag_handle</i><br><span>La Recta</span>
+				</a>
+			</div>
+			<div class="col-sm-3 col-md-2 mx-1 my-2 px-0 conf-games text-center">
+				<a href="giro/" target="_blank" class="py-2">
+					<i class="material-icons font-siz-44">rotate_right</i><br><span>El Giro</span>
+				</a>
+			</div>
+			<div class="col-sm-3 col-md-2 mx-1 my-2 px-0 conf-games text-center">
+				<a href="simetria/" target="_blank" class="py-2">
+					<i class="material-icons font-siz-44">camera_front</i><br><span>Simetría</span>
+				</a>
+			</div>
+		</div>
+		<div class="row justify-content-sm-center justify-content-md-center selector-color-row-2 animated fadeInRightBig delay-2s">
+			<div class="col-sm-3 col-md-2 mx-1 my-2 px-0 conf-games text-center">
+				<a href="punto/" target="_blank" class="py-2">
+					<i class="material-icons font-siz-44">brightness_1</i><br><span>El Punto</span>
+				</a>
+			</div>
+			<div class="col-sm-3 col-md-2 mx-1 my-2 px-0 conf-games text-center">
+				<a href="angulos/" target="_blank" class="py-2">
+					<i class="material-icons font-siz-44">details</i><br><span>Ángulos</span>
+				</a>
+			</div>
+			<div class="col-sm-3 col-md-2 mx-1 my-2 px-0 conf-games text-center">
+				<a href="figuras-planas/" target="_blank" class="py-2">
+					<i class="material-icons font-siz-44">add_photo_alternate</i><br><span>Figuras Planas</span>
+				</a>
+			</div>
+		</div>
+		<div class="row justify-content-sm-center justify-content-md-center selector-color-row-3 animated fadeInRightBig delay-2s">
+			<div class="col-sm-3 col-md-2 mx-1 my-2 px-0 conf-games text-center">
+				<a href="figuras-solidas/" target="_blank" class="py-2">
+					<i class="material-icons font-siz-44">perm_media</i><br><span>Figuras Sólidas</span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="main main-raised animated fadeInUp delay-2s">
+		<div class="container-fluid px-0">
+			<div class="section text-center bg-color-zona-juegos animated fadeInUp delay-2s" id="games">
+				<h2 class="title f-nino animated fadeInLeftBig delay-2s text-shadow-p-2">Juegos de Geometría</h2>
+				<div class="team">
+					<div class="row justify-content-md-center mx-0">
+						<div class="col-md-4">
+							<section class="card card-plain selector-color-1">
+								<div class="col-md-12 px-0 contenedor">
+									<img src="imagen/games_01.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid imagen juegos-img">
+								</div>
+								<h4 class="card-title f-nino font-siz-34 text-shadow-p">La Recta</h4
+									>
+								<div class="row">
+									<div class="col-md-4 ml-auto mr-auto text-center">
+										<a href="recta/" target="_blank" class="btn bg-color-btn">Jugar</a>
+									</div>
+								</div>
+								<div class="card-body">
+									<p class="p-game">En geometría euclidiana, la recta o la línea recta es una línea que se extiende en una misma dirección por tanto tiene una sola dimensión y contiene un número infinito de puntos. Dicha recta también se puede describir como una sucesión continua de puntos extendidos en una sola dirección.</p>
+								</div>
+							</section>
+						</div>
+						<div class="col-md-4">
+							<section class="card card-plain selector-color-2">
+								<div class="col-md-12 px-0 contenedor">
+									<img src="imagen/games_02.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid imagen juegos-img">
+								</div>
+								<h4 class="card-title f-nino font-siz-34 text-shadow-p">El Giro</h4>
+								<div class="row">
+									<div class="col-md-4 ml-auto mr-auto text-center">
+										<a href="giro/" target="_blank" class="btn bg-color-btn">Jugar</a>
+									</div>
+								</div>
+								<div class="card-body">
+									<p class="p-game">El giro puede ser, por lo tanto, el movimiento de un cuerpo o de un vehículo. Por ejemplo: Calculé mal cuando hice el giro y terminé chocando frente al poste de luz, Me lastimé el tobillo al realizar un giro cuando ordenaba mi casa.</p>
+								</div>
+							</section>
+						</div>
+						<div class="col-md-4">
+							<section class="card card-plain selector-color-3">
+								<div class="col-md-12 px-0 contenedor">
+									<img src="imagen/games_03.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid imagen juegos-img">
+								</div>
+								<h4 class="card-title f-nino font-siz-34 text-shadow-p">Simetría</h4
+									>
+								<div class="row">
+									<div class="col-md-4 ml-auto mr-auto text-center">
+										<a href="simetria/" target="_blank" class="btn bg-color-btn">Jugar</a>
+									</div>
+								</div>
+								<div class="card-body">
+									<p class="p-game">Se denomina simetría a la correspondencia que se registra entre la posición, la forma y el tamaño de aquellos componentes que forman un todo. Central, por su parte, es el adjetivo que refiere a lo vinculado a un centro (el espacio equidistante de los límites de algo).</p>
+								</div>
+							</section>
+						</div>
+						<div class="col-md-4">
+							<section class="card card-plain selector-color-4">
+								<div class="col-md-12 px-0 contenedor">
+									<img src="imagen/games_04.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid imagen juegos-img">
+								</div>
+								<h4 class="card-title f-nino font-siz-34 text-shadow-p">El Punto</h4
+									>
+									<div class="row">
+									<div class="col-md-4 ml-auto mr-auto text-center">
+										<a href="punto/" target="_blank" class="btn bg-color-btn">Jugar</a>
+									</div>
+								</div>
+								<div class="card-body">
+									<p class="p-game">Se define como un elemento que no tiene longitud, anchura, ni altura, este solo ocupa un lugar en el espacio.</p>
+								</div>
+							</section>
+						</div>
+						<div class="col-md-4">
+							<section class="card card-plain selector-color-5">
+								<div class="col-md-12 px-0 contenedor">
+									<img src="imagen/games_08.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid imagen juegos-img">
+								</div>
+								<h4 class="card-title f-nino font-siz-34 text-shadow-p">Ángulos</h4>
+								<div class="row">
+									<div class="col-md-4 ml-auto mr-auto text-center">
+										<a href="angulos/" target="_blank" class="btn bg-color-btn">Jugar</a>
+									</div>
+								</div>
+								<div class="card-body">
+									<p class="p-game">Los ángulos correspondientes son los que están a un mismo lado de la transversal, uno pertenece a la región interior y otro a la región exterior. Son congruentes cuando las rectas cortadas son paralelas. Ángulos compuestos. Dos ángulos contiguos forman un ángulo compuesto.</p>
+								</div>
+							</section>
+						</div>
+						<div class="col-md-4">
+							<section class="card card-plain selector-color-6">
+								<div class="col-md-12 px-0 contenedor">
+									<img src="imagen/games_09.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid imagen juegos-img">
+								</div>
+								<h4 class="card-title f-nino font-siz-34 text-shadow-p">Figuras 
+								Planas</h4>
+								<div class="row">
+									<div class="col-md-4 ml-auto mr-auto text-center">
+										<a href="figuras-planas/" target="_blank" class="btn bg-color-btn">Jugar</a>
+									</div>
+								</div>
+								<div class="card-body">
+									<p class="p-game">Son aquellas figuras geométricas que no tienen relieve, es decir, que sólo tienen dos dimensiones. Este tipo de figuras se dividen en polígonos (unión de líneas rectas) y cónicas (unión de líneas curvas).</p>
+								</div>
+							</section>
+						</div>
+						<div class="col-md-4">
+							<section class="card card-plain selector-color-7">
+								<div class="col-md-12 px-0 contenedor">
+									<img src="imagen/games_05.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid imagen juegos-img">
+								</div>
+								<h4 class="card-title f-nino font-siz-34 text-shadow-p">Figuras 
+								Sólidas</h4>
+								<div class="row">
+									<div class="col-md-4 ml-auto mr-auto text-center">
+										<a href="figuras-solidas/" target="_blank" class="btn bg-color-btn">Jugar</a>
+									</div>
+								</div>
+								<div class="card-body">
+									<p class="p-game">Un sólido geométrico o figura del espacio es una figura tridimensional: largo, ancho, alto cuya superficie encierra parte del espacio.</p>
+								</div>
+							</section>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="section section-contacts bg-color-zona-contacto" id="contact">
+				<div class="row justify-content-md-center mx-0">
+					<div class="col-md-8">
+						<h2 class="text-center title f-nino text-shadow-p-2">Acerca de</h2>
+						<h4 class="text-center description f-gumela font-siz-24">Este sitio web fue creado con esfuerzo y dedicación de los estudiantes de la Corporación Universitaria Autónoma de Nariño y el apoyo de los docentes de esta misma.</h4>
+					</div>
+					<div class="container mt-5">
+						<div class="row justify-content-md-center justify-content-sm-center">
+							<div class="col-md-4 mb-5">
+								<h4 class="card-title text-center f-nino font-siz-34 text-shadow-p">Autores</h4
+									>
+								<p class="p-acerca-de">Marleny López Bastidas <br> Adela Bastidas Morales </p>
+							</div>
+							<div class="col-md-4 mb-5">
+								<h4 class="card-title text-center f-nino font-siz-34 text-shadow-p">Apoyo Metodológico</h4
+									>
+								<p class="p-acerca-de">Mg. Betty Magaly Mora</p>
+							</div>
+							<div class="col-md-4">
+								<h4 class="card-title text-center f-nino font-siz-34 text-shadow-p">Apoyo Técnico</h4
+									>
+								<p class="p-acerca-de">Ing. Edwin Pacheco</p>
+							</div>
+						</div>
+						<div class="row justify-content-center">
+							<div class="col-5 col-sm-4 col-md-3 col-lg-1 p-3 mt-5 mt-md-4 mt-sm-4 mt-lg-4">
+								<a href="">
+									<picture>
+										<source class="img-fluid rounded mx-auto d-block" alt="Logo Autónoma de Nariño" srcset="imagen/logo-aunar.webp" type="image/webp" width="100%">
+										<img class="img-fluid rounded mx-auto d-block" alt="Logo Autónoma de Nariño" src="imagen/logo-aunar.png" width="100%">
+									</picture>
+								</a>
+							</div>
+						</div>
+						<div class="row justify-content-center">
+							<div class="col-10 col-sm-6 col-md-6 col-lg-6 p-0 m-0">
+								<p class="p-acerca-de">Corporación Universitaria Autónoma de Nariño</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer class="footer ">
+		<div class="container">
+			<div class="f-gumela bg-color-copy font-siz-22">
+				San Juan de Pasto, Nariño, Colombia <br>
+				&copy; Copyright <br> <script>document.write(new Date().getFullYear())</script>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Core JS Files -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(window).load(function() {
+			$(".loader").fadeOut(3000,"linear"); // 10 seg
+		});
+	</script>
+	<script src="js/core/jquery.min.js"></script>
+	<script src="js/core/popper.min.js"></script>
+	<script src="js/bootstrap-material-design.js"></script>
+	<!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
+	<script src="../css3_animate/js/css3-animate-it.js"></script>
+	<script src="js/material-kit.js?v=2.0.0"></script>
+
+</body>
 </html>
