@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1589088238,
+	"version": 1589243690,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -90,6 +90,7 @@
 		"images/spritefont5.png",
 		"images/sprite30-sheet0.png",
 		"images/sprite31-sheet0.png",
+		"images/logo-sheet0.png",
 		"media/click.m4a",
 		"media/click.ogg",
 		"media/collect key.m4a",
@@ -97,6 +98,8 @@
 		"media/musica-estimulante.m4a",
 		"media/musica-estimulante.ogg",
 		"media/musica-suabe.ogg",
+		"media/mpunto-pm.ogg",
+		"media/mgusano.ogg",
 		"media/puntooo.m4a",
 		"media/puntooo.ogg",
 		"media/sabiasque.m4a",

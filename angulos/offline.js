@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1589125674,
+	"version": 1589245955,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -10,6 +10,7 @@
 		"images/obj_bar-sheet0.png",
 		"images/obj_hand-sheet0.png",
 		"images/obj_hand-sheet1.png",
+		"images/display-sheet0.png",
 		"images/cerrar1-sheet0.png",
 		"images/sprite-sheet0.png",
 		"images/aprendamos-sheet0.png",
@@ -52,6 +53,9 @@
 		"media/off-click.ogg",
 		"media/musica-estimulante.ogg",
 		"media/musi.ogg",
+		"media/angulos12.ogg",
+		"media/bienpm.ogg",
+		"media/exelentetrabajo.ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",

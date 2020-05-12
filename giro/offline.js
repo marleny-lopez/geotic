@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1589118078,
+	"version": 1589243336,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -123,6 +123,7 @@
 		"images/sprite46-sheet0.png",
 		"images/ok-sheet0.png",
 		"images/ok-sheet1.png",
+		"images/sprite47-sheet0.png",
 		"media/bienpm.m4a",
 		"media/bienpm.ogg",
 		"media/click.m4a",
@@ -130,6 +131,10 @@
 		"media/elgiro.ogg",
 		"media/musica-suabe.ogg",
 		"media/musicainstru.ogg",
+		"media/girom.ogg",
+		"media/cangurinsm.ogg",
+		"media/astro.ogg",
+		"media/mundo.ogg",
 		"media/figura.m4a",
 		"media/figura.ogg",
 		"media/geometr.m4a",

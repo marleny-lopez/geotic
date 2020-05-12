@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1589088553,
+	"version": 1589248988,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -115,6 +115,8 @@
 		"media/solidasinstru1.m4a",
 		"media/solidasinstru1.ogg",
 		"media/solidasinstruc2.ogg",
+		"media/inssolidas 30.ogg",
+		"media/solidas35.ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",

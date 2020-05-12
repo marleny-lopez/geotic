@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1589088433,
+	"version": 1589247585,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -119,6 +119,8 @@
 		"media/figurapla2.ogg",
 		"media/musi.ogg",
 		"media/musiiiiiii.ogg",
+		"media/planasfigur.ogg",
+		"media/planasperro.ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
