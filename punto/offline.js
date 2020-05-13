@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1589243690,
+	"version": 1589327453,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -19,7 +19,7 @@
 		"images/tileblue_5-sheet0.png",
 		"images/enemi-sheet0.png",
 		"images/punto3-sheet0.png",
-		"images/puntos-sheet0.png",
+		"images/puntaje-sheet0.png",
 		"images/spritefont.png",
 		"images/spritefont2.png",
 		"images/window-sheet0.png",
@@ -91,6 +91,9 @@
 		"images/sprite30-sheet0.png",
 		"images/sprite31-sheet0.png",
 		"images/logo-sheet0.png",
+		"images/sprite32-sheet0.png",
+		"images/sprite33-sheet0.png",
+		"images/entrada-sheet0.png",
 		"media/click.m4a",
 		"media/click.ogg",
 		"media/collect key.m4a",

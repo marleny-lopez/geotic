@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1589247585,
+	"version": 1589327629,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -10,6 +10,7 @@
 		"images/sprite-sheet1.png",
 		"images/figuraso-sheet0.png",
 		"images/blanfiguras-sheet0.png",
+		"images/blanfiguras-sheet1.png",
 		"images/sprite4-sheet0.png",
 		"images/correcto1.png",
 		"images/fondofigu-sheet0.png",
@@ -37,7 +38,6 @@
 		"images/odfkkdof2-sheet0.png",
 		"images/nivel-sheet0.png",
 		"images/nivel2-sheet0.png",
-		"images/drop1-sheet0.png",
 		"images/drop2-sheet0.png",
 		"images/drop6-sheet0.png",
 		"images/c-sheet0.png",
