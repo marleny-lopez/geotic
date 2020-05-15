@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1589327629,
+	"version": 1589569208,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -93,6 +93,12 @@
 		"images/sprite5-sheet0.png",
 		"images/sprite14-sheet0.png",
 		"images/stop-sheet0.png",
+		"images/sprite15-sheet0.png",
+		"images/izblan-sheet0.png",
+		"images/dereblan-sheet0.png",
+		"images/derechafon-sheet0.png",
+		"images/manoizcolo-sheet0.png",
+		"images/sprite18-sheet0.png",
 		"media/bienpm.m4a",
 		"media/bienpm.ogg",
 		"media/click.m4a",

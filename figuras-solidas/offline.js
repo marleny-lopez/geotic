@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1589327603,
+	"version": 1589569331,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -66,6 +66,7 @@
 		"images/aplausosgifanimadoconmovimiento-sheet0.png",
 		"images/aplausosgifanimadoconmovimiento-sheet1.png",
 		"images/func.png",
+		"images/sigu-sheet0.png",
 		"images/tiledbackground5.png",
 		"images/tiledbackground6.png",
 		"images/tiledbackground7.png",
@@ -91,7 +92,9 @@
 		"images/sprite32-sheet0.png",
 		"images/sprite33-sheet0.png",
 		"images/solige-sheet0.png",
-		"images/sprite16-sheet0.png",
+		"images/boton-sheet0.png",
+		"images/fle-sheet0.png",
+		"images/sprite23-sheet0.png",
 		"media/click.m4a",
 		"media/click.ogg",
 		"media/cilindro.m4a",

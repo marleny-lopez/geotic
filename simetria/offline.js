@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1589327448,
+	"version": 1589569061,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -57,6 +57,13 @@
 		"images/func.png",
 		"images/sprite5-sheet0.png",
 		"images/sprite7-sheet0.png",
+		"images/roj-sheet0.png",
+		"images/sprite10-sheet0.png",
+		"images/sprite11-sheet0.png",
+		"images/sprite11-sheet1.png",
+		"images/sprite11-sheet2.png",
+		"images/sprite14-sheet0.png",
+		"images/sprite15-sheet0.png",
 		"media/off-click.ogg",
 		"media/simetria1.ogg",
 		"media/click.ogg",

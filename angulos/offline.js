@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1589326968,
+	"version": 1589573726,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -48,6 +48,13 @@
 		"images/ganaste-sheet0.png",
 		"images/sprite2-sheet0.png",
 		"images/sprite3-sheet0.png",
+		"images/sprite5-sheet0.png",
+		"images/aplausosgifanimadoconmovimiento-sheet0.png",
+		"images/aplausosgifanimadoconmovimiento-sheet1.png",
+		"images/sprite6-sheet0.png",
+		"images/sprite11-sheet0.png",
+		"images/sprite12-sheet0.png",
+		"images/sprite13-sheet0.png",
 		"media/angulos.ogg",
 		"media/pop1.ogg",
 		"media/off-click.ogg",

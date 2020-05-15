@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1589243689,
+	"version": 1589570104,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -78,6 +78,8 @@
 		"images/sprite26-sheet0.png",
 		"images/sprite27-sheet0.png",
 		"images/sprite28-sheet0.png",
+		"images/sprite31-sheet0.png",
+		"images/sprite32-sheet0.png",
 		"media/click.m4a",
 		"media/click.ogg",
 		"media/musica-suabe.ogg",
