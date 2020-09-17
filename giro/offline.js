@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1589568535,
+	"version": 1600298053,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -37,6 +37,7 @@
 		"images/odfkkdof2-sheet0.png",
 		"images/nivel-sheet0.png",
 		"images/nivel2-sheet0.png",
+		"images/botonjug-sheet0.png",
 		"images/drop1-sheet0.png",
 		"images/drop2-sheet0.png",
 		"images/drop6-sheet0.png",

@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1589573726,
+	"version": 1600297925,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -16,7 +16,6 @@
 		"images/aprendamos-sheet0.png",
 		"images/geometria-sheet0.png",
 		"images/btnjugar-sheet0.png",
-		"images/btnjugar-sheet1.png",
 		"images/ltstipoan-sheet0.png",
 		"images/bnttipoangulos-sheet0.png",
 		"images/sprite8-sheet0.png",
